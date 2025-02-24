@@ -1,4 +1,4 @@
-Итеративный обход дерева
+### Итеративно
 
 ```js
 const obj = {
@@ -42,7 +42,7 @@ const flattenedObj = flattenObject(obj);
 console.log(flattenedObj);
 ```
 
-Рекурсивный обход
+### Рекурсивно
 
 ```js
 const flattenedObjR = (obj, path, result = {}) => {
